@@ -246,11 +246,5 @@ testCacheSolve <- function()
         return(FALSE)
     }
     
-    # Test with matrix #1. See if calculated value matches the
-    # expected value.
-    g <- rbind(c(2, 3, 1), c(2, 2, 2))
-    obj4 <- makeCacheMatrix(g)
-    matrix <- cacheSolve(obj4)
-    
     TRUE
 }
